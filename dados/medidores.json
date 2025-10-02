@@ -1,0 +1,6 @@
+{
+  "M1": { "consumo": "50", "impacto": "2,00"},
+  "M2": { "consumo": "0", "impacto": "1,20"},
+  "M3": { "consumo": "120", "impacto": "0,34" },
+  "M4": { "consumo": "30", "impacto": "0,25" }
+}

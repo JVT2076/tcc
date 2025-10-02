@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medidores Inteligentes</title>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+        <h1>Medidores Inteligentes</h1>
+        <div class="menu-container">
+            <button class="menu-btn" id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>   
+        <nav class="menu" id="menu">
+            <ul>
+                <li><a href="#">Impacto no preço</a></li>
+                <li><a href="#">Gasto mensal</a></li>
+                <li><a href="#">Procurar eletrônicos</a></li>
+                <li><a href="#">Como calcular a conta?</a></li>
+                <li><a href="#">Hábitos para economizar</a></li>
+                <li><a href="#">Comparar consumos</a></li>
+                <li><a href="#">Comprar medidores</a></li>
+
+            </ul>
+        </nav>
+    <div>
+        <p class="subtitles">Consumindo agora:</p>
+        <div class="data">
+            <span id="consumo"></span> KW
+        </div>
+    </div>
+    <div>
+        <p class="subtitles">Preço do KWH:</p>
+        <div class="data">
+            R$ <span id="preco" class="data"></span>
+            <form id="estados">
+                <select id="estado" name="estado" required>
+                <option value="" disabled selected>Selecione um estado</option>
+                <option value="AC">Acre (AC)</option>
+                <option value="AL">Alagoas (AL)</option>
+                <option value="AP">Amapá (AP)</option>
+                <option value="AM">Amazonas (AM)</option>
+                <option value="BA">Bahia (BA)</option>
+                <option value="CE">Ceará (CE)</option>
+                <option value="DF">Distrito Federal (DF)</option>
+                <option value="ES">Espírito Santo (ES)</option>
+                <option value="GO">Goiás (GO)</option>
+                <option value="MA">Maranhão (MA)</option>
+                <option value="MT">Mato Grosso (MT)</option>
+                <option value="MS">Mato Grosso do Sul (MS)</option>
+                <option value="MG">Minas Gerais (MG)</option>
+                <option value="PA">Pará (PA)</option>
+                <option value="PB">Paraíba (PB)</option>
+                <option value="PR">Paraná (PR)</option>
+                <option value="PE">Pernambuco (PE)</option>
+                <option value="PI">Piauí (PI)</option>
+                <option value="RJ">Rio de Janeiro (RJ)</option>
+                <option value="RN">Rio Grande do Norte (RN)</option>
+                <option value="RS">Rio Grande do Sul (RS)</option>
+                <option value="RO">Rondônia (RO)</option>
+                <option value="RR">Roraima (RR)</option>
+                <option value="SC">Santa Catarina (SC)</option>
+                <option value="SP">São Paulo (SP)</option>
+                <option value="SE">Sergipe (SE)</option>
+                <option value="TO">Tocantins (TO)</option>
+                </select>
+            </form>
+        </div>
+    </div>
+    <div>
+        <p class="subtitles">Impacto na conta:</p>
+        <div class="data">
+            <span id="impacto"></span> R$/Hora
+        <div>
+    </div>
+    <br>
+
+    <div class="container">
+        <button id="meuBotao">Aparelhos Conectados</button>
+    </div>
+    <script src="script-index.js"></script>
+</body>
+</html>

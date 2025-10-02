@@ -1,0 +1,6 @@
+{
+  "T1": { "consumo": "50", "impacto": "2,00"},
+  "T2": { "consumo": "0", "impacto": "1,20"},
+  "T3": { "consumo": "120", "impacto": "0,34" },
+  "T4": { "consumo": "30", "impacto": "0,25" }
+}
